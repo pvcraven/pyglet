@@ -116,7 +116,7 @@ A simple event loop usually has the following form::
 
 The :py:meth:`~pyglet.window.Window.dispatch_events` method checks the window's
 operating system event queue for user input and dispatches any events found.
-The method does not wait for input -- if ther are no events pending, control is
+The method does not wait for input -- if there are no events pending, control is
 returned to the program immediately.
 
 The call to :py:func:`pyglet.clock.tick` is required for ensuring scheduled
